@@ -1,29 +1,36 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: helvetica, sans-serif;
   text-align: center;
+  color: #145259;
 }
 
 h2 {
-  font-family: gill sans, sans-serif;
+  font-family: helvetica, sans-serif;
   text-align: center;
+  color: #145259;
 }
 
 li{
   list-style-type: none;
   margin: 0 2px;
   font-size: 3vh;
+  color: #4B9DA6;
 }
 
 a{
   text-decoration: none;
-  color: salmon;
+  color: #4B9DA6;
   padding: 2px;
-  font-family: gill sans, sans-serif;
+  font-family: helvetica, sans-serif;
   display: block;
 }
 
+a:hover {
+  background-color: #75BFBF;
+}
+
 .fixed-nav-bar {
-  position: absolute;
+  position: relative;
   text-align: left;
   top: 0;
   left: 0;
@@ -42,6 +49,7 @@ body {
   text-align: center;
   width: 640px;
   margin: 0 auto;
+  color: #4B9DA6;
 }
 
 .full-img {
@@ -62,12 +70,12 @@ body {
 
 button {
   border: 0;
-  background: #fcece6;
+  background: #F2CA80;
   text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
   position: absolute;
   cursor: pointer;
-  top: 2px;
+  top: 10px;
   left: 2px;
 }
 
@@ -82,7 +90,6 @@ button {
   right: 20%;
   bottom: 5%;
 }
-
 
 .thumb-bar img {
   position: relative;
